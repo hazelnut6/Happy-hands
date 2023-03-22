@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: #FEF0C7;
+    }
+    nav {
+    background-color: #FEF0C7;
+    height: 80px;
+    width: 90%;
+    }
+    #logo {
+    height: 35px;
+    width: 45px;
+    position: relative;
+    left: 15px;
+    top: 23px;
+    }
+    label#schoolname {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 100;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    }
+    nav ul {
+    float: right;
+    margin-right: px;
+    }
+    nav ul li {
+    display: inline-block;
+    line-height: 55px;
+    margin: 0 5px;
+    position: relative;
+    right: 0px;
+    left:100px;
+    top: 13px;
+    }
+    nav ul li a {
+    color: black;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    }
+    hr {
+    background-color: #F1CE9B;
+    height: 5px;
+    border-style: none;
+    }
+    #home #about #enrollment #contact #signin #enrollnow #signin, a:hover {
+        background-color: #F1CE9B;
+        transition: .5s;
+    }
+    /* #signin {
+    background-color: #F1CE9B;
+    }
+    #enrollnow {
+    background-color: #F1CE9B;
+    } */
+    
+    

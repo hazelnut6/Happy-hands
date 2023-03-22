@@ -1,0 +1,107 @@
+/* css ng school web */
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: #FEF0C7;
+}
+nav {
+    background-color: #FEF0C7;
+    height: 80px;
+    width: 100%;
+}
+#logo {
+    height: 35px;
+    width: 35px;
+    position: relative;
+    left: 50px;
+    top: 8px;
+}
+label#schoolname {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 75px;
+    padding: 0 50px;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 55px;
+    margin: 0 5px;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+nav ul li a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+#home #about #enrollment #contact #signin #enrollnow #signin, a:hover {
+    background-color: rgb(243, 199, 118);
+    transition: .5s;
+}
+hr {
+    background-color: #F1CE9B;
+    height: 5px;
+    border-style: none;
+}
+/* #signin {
+    background-color: #F1CE9B;
+}
+#enrollnow {
+    background-color: #F1CE9B;
+} */
+#aboutheader {
+    position: absolute;
+    top: 190px;
+    left: 650px;
+}
+.aboutp1 {
+    position: absolute;
+    top: 240px;
+    left: 310px;
+    font-family: sans-serif;
+}
+.aboutp2 {
+    position: absolute;
+    top: 347px;
+    left: 310px;
+    font-family: sans-serif;
+}
+pre::first-letter {
+    font-size: 25px;
+    font-family: serif;
+}
+#sign_lang {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 80px;
+    left: 90px;
+}
+#modeheader {
+    position: absolute;
+    top: 555px;
+    left: 250px;
+}
+.modep1 {
+    font-family: sans-serif;
+    position: relative;
+    top: 220px;
+}
+#modepic1 {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 738px;
+    bottom: 100px;
+}

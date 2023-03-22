@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: #FEF0C7;
+}
+nav {
+    background-color: #FEF0C7;
+    height: 80px;
+    width: 100%;
+}
+#logo {
+    height: 35px;
+    width: 35px;
+    position: relative;
+    left: 50px;
+    top: 8px;
+}
+label#schoolname {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 75px;
+    padding: 0 50px;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 55px;
+    margin: 0 5px;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+nav ul li a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+hr {
+    background-color: #F1CE9B;
+    height: 5px;
+    border-style: none;
+    width: 100%
+}
+#home #about #enrollment #contact #signin #enrollnow #signin, a:hover {
+    background-color: #F1CE9B;
+    transition: .5s;
+}
+/* #signin {
+    background-color: #F1CE9B;
+}
+#enrollnow {
+    background-color: #F1CE9B;
+} */
+#join {
+    position: relative;
+    left: 100px;
+}
+#to_join {
+    position: relative;
+    top: 5px;
+}
+#fill {
+    position: relative;
+    top: 15px;
+}
+.bar {
+    background-color: white;
+}
+#user_name {
+    position: absolute;
+    left: 128px;
+}
+#pass_word {
+    position: absolute;
+    left: 128px;
+}
+#first {
+    position: absolute;
+    left: 128px;
+}
+#last {
+    position: absolute;
+    left: 128px;
+}
+#email_add {
+    position: absolute;
+    left: 128px;
+}
+#country {
+    position: absolute;
+    left: 128px;
+}
+#inter {
+    position: absolute;
+    top: 430px;
+}
+#check {
+    position: absolute;
+    top: 442px;
+    left: 90px;
+}
+#schools {
+    position: relative;
+    left: 70px;
+}
+#homeschool {
+    position: relative;
+    left: 70px;
+}
+#improve {
+    position: relative;
+    left: 70px;
+}
+#agree {
+    position: relative;
+    top: 10px;
+}
+b {
+    color: blue;
+}
+.agreep {
+    font-family: sans-serif;
+    font-size: 10px;
+    position: absolute;
+    top: 550px;
+    right: 600px
+}
+#submit {
+    border-style: none;
+    background-color: #F1CE9B;
+    font-weight: bold;
+    height: 25px;
+    width: 45px;
+    position: absolute;
+    top: 415px;
+    left: 160px;
+}
+#half {
+    height: 549px;
+    width: 5px;
+    background-color: #F1CE9B;
+    position: absolute;
+    left: 595px;
+    top: 80px;
+}
+#purchase {
+    position: absolute;
+    left: 790px;
+    top: 130px;
+}
+.purchasep {
+    position: absolute;
+    left: 600px;
+    top: 160px;
+    font-family: serif;
+}
+.purchasep2 {
+    position: absolute;
+    left: 600px;
+    top: 210px;
+    font-family: serif;
+}
+#subscribe {
+    border-style: none;
+    background-color: #F1CE9B;
+    font-weight: bold;
+    height: 25px;
+    width: 90px;
+    position: absolute;
+    left: 850px;
+    top: 260px;
+}
