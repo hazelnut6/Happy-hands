@@ -1,0 +1,123 @@
+body {
+    background-color: #FFEAB5;
+    }
+nav {
+    background-color: #FFEAB5;
+    height: 80px;
+    width: 100%;
+}
+#logo {
+    height: 35px;
+    width: 35px;
+    position: relative;
+    left: 50px;
+    top: 8px;
+}
+label#schoolname {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 75px;
+    padding: 0 50px;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+    position: absolute;
+    top: 1px;
+    left: 480px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 55px;
+    margin: 0 5px;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+nav ul li a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+hr {
+    background-color: #F1CE9B;
+    height: 5px;
+    border-style: none;
+}
+#home #about #enrollment #contact #signin #enrollnow #signin, a:hover {
+    background-color: #F1CE9B;
+    transition: .5s;
+}
+/* #signin {
+    background-color: #F1CE9B;
+}
+#enrollnow {
+    background-color: #F1CE9B;
+} */
+    /* nav {
+    background-color: #FFEAB5;
+    height: 80px;
+    width: 100%;
+    }
+    
+    #logo {
+    height: 35px;
+    width: 35px;
+    position: relative;
+    left: 50px;
+    top: 8px;
+    }
+    
+    #schoolname {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 75px;
+    padding: 0 50px;
+    }
+    
+    nav ul {
+    float: right;
+    margin-right: 20px;
+    }
+    
+    nav ul li {
+    display: inline-block;
+    line-height: 55px;
+    margin: 0 5px;
+    position: relative;
+    right: 10px;
+    top: 10px;
+    }
+    
+    nav ul li a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    } */
+    
+    #steps {
+    line-height: 50px;
+    background-color: #eab565;
+    opacity: 1;
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: large;
+    }
+    
+    #picture1 {
+    position: absolute;
+    border-radius: 300px;
+    height: 500px;
+    width: 500px;
+    top: 140px;
+    left:630px;
+    }

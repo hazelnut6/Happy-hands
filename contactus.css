@@ -1,0 +1,156 @@
+/* *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #fcf9e1;
+}
+#logo {
+	height: 35px;
+    width: 35px;
+	position: absolute;
+	left: 50px;
+}
+#schoolname {
+	position: relative;
+	left: 100px;
+}
+.navlist{
+	height: 70px;
+	padding-top: 20px;
+	border-bottom: 2px solid #F1CE9B;
+	margin-bottom: 30px;
+}
+.navlist p{
+	float: left;
+	font-size: 30px;
+}
+.navlist ul{
+	float: right;
+}
+.navlist ul li{
+	display: inline;
+	margin-left: 20px;
+	font-size: 20px;
+}
+.navlist ul li button{
+	background-color:#e8b464 ;
+	border: none;
+	padding: 10px;
+} */
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: #FEF0C7;
+}
+nav {
+    background-color: #FEF0C7;
+    height: 80px;
+    width: 100%;
+}
+#logo {
+    height: 35px;
+    width: 35px;
+    position: relative;
+    left: 50px;
+    top: 8px;
+}
+label#schoolname {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 75px;
+    padding: 0 50px;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 55px;
+    margin: 0 5px;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+nav ul li a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+#home #about #enrollment #contact #signin #enrollnow #signin, a:hover {
+    background-color: #F1CE9B;
+    transition: .5s;
+}
+/* #signin {
+    background-color: #F1CE9B;
+}
+#enrollnow {
+    background-color: #F1CE9B;
+} */
+hr {
+    background-color: #F1CE9B;
+    height: 5px;
+    border-style: none;
+}
+.contact img{
+	width: 40px;
+	height: 40px;
+}
+.contact .email .p2{
+	width: 238px;
+	position: relative;
+	top: -12px;
+	left: 46px;
+	background-color: #e8b464;
+	padding: 10px;
+}
+#gmail {
+	position: relative;
+	top: 30px;
+}
+.contact .number p{
+	display: inline;
+	background-color: #e8b464;
+	position: relative;
+	top: -12px;
+	padding: 10px;
+	padding-right: 130px;
+
+}
+.textarea-1{
+	margin-bottom: 50px;
+	width: 500px;
+	margin: 50px auto;
+}
+.textarea-1 .textarea-field{
+	margin: 0 auto;
+	width: 250px;
+	;
+
+}
+.textarea-1 .textarea-field textarea{
+	background-color: #e8b464;
+	position: relative;
+	left: -60px;
+} 
+.textarea-1 p{
+	text-align: center;
+
+}
+.textarea-1 .button-submit{
+	text-align: center;
+	width: 200px;
+	margin: 0 auto;
+}
+.textarea-1 .button-submit button{
+	background-color:  #e8b464;
+	border: none;
+}
